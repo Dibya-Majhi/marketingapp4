@@ -25,7 +25,9 @@ public class LeadController {
 	 @Autowired
 	private LeadService leadService;
 	
-	@RequestMapping("/viewLeadPage")
+	@RequestMappingRam("/viewLeadPage")
+	//BUG -130
+	int i=10;
 	public String leadCreatePage() {
 		return "create_lead";
 		
