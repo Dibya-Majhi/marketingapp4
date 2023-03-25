@@ -28,6 +28,7 @@ public class LeadController {
 	@RequestMappingRam("/viewLeadPage")
 	//BUG -130
 	int i=10;
+	int k=40;
 	public String leadCreatePage() {
 		return "create_lead";
 		
